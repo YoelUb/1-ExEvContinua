@@ -1,0 +1,9 @@
+@startuml
+
+class Matematicas{
+
++ generarNumeroPi(long pasos): double
+
+}
+
+@enduml
