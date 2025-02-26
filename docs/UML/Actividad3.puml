@@ -1,0 +1,12 @@
+@startuml
+
+class Graph {
+  + boolean addVertex(Vertex v)
+  + boolean addEdge(Vertex v1, Vertex v2)
+  + HashSet<Vertex> obtainAdjacents(Vertex v)
+  + boolean containsVertex(Vertex v)
+  + void dfs()
+  + List<Vertex> onePath(Vertex v1, Vertex v2)
+}
+
+@enduml
