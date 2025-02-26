@@ -1,4 +1,4 @@
-package src.main.java.actividad3;
+package actividad3;
 
 import java.util.*;
 

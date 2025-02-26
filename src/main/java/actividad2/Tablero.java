@@ -1,4 +1,4 @@
-package src.main.java.actividad2;
+package actividad2;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

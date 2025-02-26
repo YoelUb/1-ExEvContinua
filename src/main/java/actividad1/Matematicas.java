@@ -1,4 +1,4 @@
-package src.main.java.actividad1;
+package actividad1;
 
 import java.util.Random;
 

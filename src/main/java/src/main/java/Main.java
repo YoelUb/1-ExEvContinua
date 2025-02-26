@@ -1,7 +1,8 @@
 package src.main.java;
 
-import src.main.java.actividad1.Matematicas;
-import src.main.java.actividad2.Tablero;
+import actividad1.Matematicas;
+import actividad2.Tablero;
+
 import java.util.concurrent.TimeUnit;
 
 
