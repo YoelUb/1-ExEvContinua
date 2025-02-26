@@ -1,9 +1,6 @@
-package src.main.java;
-
 import actividad1.Matematicas;
 import actividad2.Tablero;
 import actividad3.Graph;
-
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
