@@ -18,7 +18,7 @@ public class Main {
         Tablero tablero = new Tablero();
         try {
             System.out.println("SIMULACIÓN CON TABLERO LEÍDO");
-            tablero.leerEstadoDesdeArchivo("docs/matriz.txt");
+            tablero.leerEstadoDesdeArchivo("docs/Recursos/matriz.txt");
             System.out.println(tablero);
 
             for (int i = 0; i <= 5; i++) {
