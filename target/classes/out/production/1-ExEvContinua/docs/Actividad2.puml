@@ -1,8 +1,0 @@
-@startuml
-class Tablero {
- + leerEstadoDesdeArchivo(nombreArchivo: String): void
- + generarEstadoActualPorMontecarlo(): void
- + transitarAlEstadoActual(): void
- + toString(): String
-}
-@enduml

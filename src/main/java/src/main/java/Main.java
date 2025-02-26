@@ -2,7 +2,9 @@ package src.main.java;
 
 import actividad1.Matematicas;
 import actividad2.Tablero;
+import actividad3.Graph;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
@@ -40,6 +42,26 @@ public class Main {
         } catch (InterruptedException e) {
             System.out.println("Error durante la simulación: " + e);
         }
+
+
+        System.out.println("---------------------------------------------");
+        System.out.println("Actividad 3: ");
+        Graph<Integer> grafo = new Graph<>();
+        grafo.addEdge(1, 2);
+        grafo.addEdge(3, 4);
+        grafo.addEdge(1, 5);
+        grafo.addEdge(5, 6);
+        grafo.addEdge(6, 4);
+        int inicio = 1;
+        int fin = 4;
+        List<Integer> camino = grafo.onePath(inicio, fin);
+
+        if (camino != null) {
+            System.out.println("Camino encontrado de " + inicio + " a " + fin + ": " + camino);
+        } else {
+            System.out.println("No se encontró un camino de " + inicio + " a " + fin);
+        }
+
 
         System.out.println("---------------------------------------------");
         System.out.println("FUNCIONA ;)");

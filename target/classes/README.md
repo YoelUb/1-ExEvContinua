@@ -4,7 +4,22 @@
 
 Este diagrama modela los objetos y métodos necesarios para calcular una aproximación del número π utilizando el método de Montecarlo.
 
-[Actividad1Uml.pdf](docs/Actividad1Uml.pdf)
+
+![Actividad1Uml.svg](docs/Arquitectura-UML/Actividad1Uml.svg)
+
+
+El diagrama modela los objetos y métodos necesarios para realizar el juego de la vida con una interfaz gráfica.
+
+
+![Actividad2Uml.svg](docs/Arquitectura-UML/Actividad2Uml.svg)
+
+
+Este tercer diagrama modela los objetos y métodos necesarios para la busqueda de un camino entre dos vértices de un grafo.
+
+
+![Actividad3Uml.svg](docs/Arquitectura-UML/Actividad3Uml.svg)
+
+
 
 Requisitos Previos:
 
