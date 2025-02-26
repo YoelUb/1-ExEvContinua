@@ -78,25 +78,16 @@ public class Tablero {
     }
 
 
-    public void mostrarEstado() {
-        for (int i = 0; i < DIMENSION; i++) {
-            for (int j = 0; j < DIMENSION; j++) {
-                System.out.print(estadoActual[i][j] + " ");
-            }
-            System.out.println();
-        }
-    }
-
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sbuilder = new StringBuilder();
         for (int i = 0; i < DIMENSION; i++) {
             for (int j = 0; j < DIMENSION; j++) {
-                sb.append(estadoActual[i][j] == 1 ? "X" : " ");
+                sbuilder.append(estadoActual[i][j] == 1 ? "X" : " ");
             }
-            sb.append("\n");
+            sbuilder.append("\n");
         }
-        return sb.toString();
+        return sbuilder.toString();
     }
 
 }
